@@ -1,0 +1,37 @@
+* {
+  max-width: 300px;
+  width: 100%;
+  margin: auto;
+  padding: 0px;
+}
+
+.site-heading {
+  text-align: center;
+  background-color: #ff0000;
+  color: #ffffff;
+  padding: 0.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.site-logos {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.site-logos-item {
+  width: 100%;
+  margin: auto;
+  flex-direction: row;
+}
+
+.logo {
+  width: 45%;
+ 
+  background-color: #ff0000;
+  height: 150px;
+  padding: 1.3rem;
+}
+
