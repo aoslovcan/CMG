@@ -1,0 +1,24 @@
+.box-sizing {
+  padding: 1.2rem;
+  max-width: 600px;
+}
+
+.container {
+  width: 300px;
+  height: 300px;
+  background-color: #008000;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: row;
+}
+.control-input {
+  font-size: 1.6rem;
+  border-radius: 5% !important;
+  border: 1px solid grey !important;
+}
+.control-label {
+  margin: 1.1rem;
+  font-weight: bold;
+}
